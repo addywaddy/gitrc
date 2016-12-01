@@ -1,0 +1,14 @@
+[user]
+  name =
+  email =
+[core]
+  editor = vim
+[alias]
+  st = status
+  pullr = pull --rebase
+  ci = commit
+  co = checkout
+  graph = log --graph --date=short --all --decorate --format='%Cred%h%Creset: %s [%Cgreen%an%Creset, %Cblue%ad%Creset] %Cred%d%Creset'
+  me = log --date=short --all --author=adam --author-date-order --format='%Cblue%ad%Creset: %s'
+[merge]
+	ff = false
