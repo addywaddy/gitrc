@@ -5,7 +5,7 @@
   editor = vim
 [alias]
   st = status
-  pullr = pull --rebase
+  pullr = pull --ff
   ci = commit
   co = checkout
   graph = log --graph --date=short --all --decorate --format='%Cred%h%Creset: %s [%Cgreen%an%Creset, %Cblue%ad%Creset] %Cred%d%Creset'
