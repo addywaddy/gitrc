@@ -1,14 +1,25 @@
 [user]
-  name =
-  email =
+  name = Adam Groves
+  email = adam.groves@gmail.com
 [core]
   editor = vim
 [alias]
   st = status
-  pullr = pull --ff
+  pullr = pull --rebase
   ci = commit
   co = checkout
   graph = log --graph --date=short --all --decorate --format='%Cred%h%Creset: %s [%Cgreen%an%Creset, %Cblue%ad%Creset] %Cred%d%Creset'
+  diffc = diff --cached
   me = log --date=short --all --author=adam --author-date-order --format='%Cblue%ad%Creset: %s'
+  sup = !sh -c 'git push --set-upstream origin $(git symbolic-ref --short HEAD)'
 [merge]
 	ff = false
+[rebase]
+	autosquash = true
+[color]
+  ui = auto
+	diff = auto
+[color "status"]
+  changed = yellow
+  added = green
+  untracked = red
