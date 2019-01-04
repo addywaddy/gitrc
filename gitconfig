@@ -1,9 +1,6 @@
 [user]
   name = Adam Groves
   email = adam.groves@gmail.com
-[core]
-	excludesfile = /Users/addywaddy/.gitignore
-  editor = vim
 [alias]
   st = status
   pullr = pull --rebase
