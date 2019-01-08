@@ -1,3 +1,5 @@
+[credential]
+	helper = osxkeychain
 [user]
   name = Adam Groves
   email = adam.groves@gmail.com
